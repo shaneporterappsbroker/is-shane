@@ -1,0 +1,43 @@
+name: Build
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  #
+  # consecutive_pipeline loops checking if a previous pipeline has finished
+  #
+  consecutive_pipeline:
+    name: Wait For Running Workflows
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: mktcode/consecutive-workflow-action@0b779df0b7f31f656194b3aa004cc29dd406393b # using this commit hash as recommended by the author
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  #
+  # Automation Package
+  #
+  shane_automation:
+    name: Automation Package
+    runs-on: ubuntu-20.04
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: ./
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Set up node
+        uses: ./.github/actions/setup-node
+        with:
+          cache-name: shane_automation
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ts and lint checks
+        run: npm run check

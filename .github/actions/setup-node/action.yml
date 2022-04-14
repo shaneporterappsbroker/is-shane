@@ -1,0 +1,21 @@
+name: Set up NodeJS
+description: Sets the version of NodeJS used by the job and npm cache
+inputs:
+  cache-name:
+    description: The name of the job to assign to the npm cache
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v2
+      name: Setup NodeJS
+      with:
+        node-version: 16
+    - uses: actions/cache@v2
+      name: Set npm cache
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-npm-cache-${{ inputs.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-npm-cache-${{ inputs.cache-name }}-
