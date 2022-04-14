@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/shaneporterappsbroker/is-shane/compare/v1.1.0...v1.1.1) (2022-04-14)
+
+
+### Bug Fixes
+
+* small change to README, fix used just to demonstrate the patch version auto-increment ([504c38a](https://github.com/shaneporterappsbroker/is-shane/commit/504c38a7f31607ce62d24a175c40a9ee567c203f))
+
 # [1.1.0](https://github.com/shaneporterappsbroker/is-shane/compare/v1.0.0...v1.1.0) (2022-04-14)
 
 
