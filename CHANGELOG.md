@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/shaneporterappsbroker/is-shane/compare/v1.0.0...v1.1.0) (2022-04-14)
+
+
+### Features
+
+* i am enjoying watching it fail ([ed41cfd](https://github.com/shaneporterappsbroker/is-shane/commit/ed41cfdd1935804703880589b0e9658b374cec36))
+* will this be the final change that is required? ([69184f2](https://github.com/shaneporterappsbroker/is-shane/commit/69184f2b1ea809eb9f62c27153c4b5db46d7b97a))
+
 # 1.0.0 (2022-04-14)
 
 
