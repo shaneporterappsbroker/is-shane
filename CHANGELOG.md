@@ -1,3 +1,18 @@
+# 1.0.0 (2022-04-14)
+
+
+### Features
+
+* doing some more testing ([ca85aa5](https://github.com/shaneporterappsbroker/is-shane/commit/ca85aa5f4e261610e5fe0944919ed5ceaf88ef62))
+* doing some more testing ([2989e30](https://github.com/shaneporterappsbroker/is-shane/commit/2989e30d4b961214bdd8bdf96cf871ac54d6306c))
+* initial commit ([9593401](https://github.com/shaneporterappsbroker/is-shane/commit/959340149f90ca99229a218cfe35bfbf65e06e85))
+* initial commit ([5323a84](https://github.com/shaneporterappsbroker/is-shane/commit/5323a840dd6ec15b4d9c5af88e7dfcba7f2b4821))
+* last try before I lose my marbles ([403e46d](https://github.com/shaneporterappsbroker/is-shane/commit/403e46dc143ee9865bea49cc5601bbde3854d0d0))
+* oh but another try? ([c3a766d](https://github.com/shaneporterappsbroker/is-shane/commit/c3a766d0aa5d3c0024bf01c41b790dd81156c672))
+* oh but one more try? ([7a7285e](https://github.com/shaneporterappsbroker/is-shane/commit/7a7285ed12772d79cece12b96c0f894476851a41))
+* test ([5634561](https://github.com/shaneporterappsbroker/is-shane/commit/5634561300fe0ac941e55b437cf710da2eb4426b))
+* test 2 ([35e143d](https://github.com/shaneporterappsbroker/is-shane/commit/35e143d3654e7c0f0652a47b72e4d520d9f8d510))
+
 ## [2.2.4](https://github.com/chanonroy/is-chanon/compare/v2.2.3...v2.2.4) (2020-10-23)
 
 
