@@ -32,11 +32,6 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v2
 
-      - name: Reconfigure git to use HTTP authentication
-        run: >
-          git config --global url."https://github.com/".insteadOf
-          ssh://git@github.com/
-
       - name: Set up node
         uses: ./.github/actions/setup-node
         with:
