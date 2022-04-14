@@ -8,7 +8,7 @@
     "check:ts": "tsc --noEmit",
     "check:lint": "eslint \"**/*.ts\" \"**/*.js\" --max-warnings=0",
     "check:lint:fix": "npm run check:lint -- --fix",
-    "build": "tsc"    
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
